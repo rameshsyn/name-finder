@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Name Finder - Finds you a name </title>
+    <link href="https://fonts.googleapis.com/css?family=Chewy|Creepster" rel="stylesheet">
+
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+
+        <link rel="stylesheet" href="style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+  <div class="container">
+    <div class="instruction">
+      <h1> Think someone's name ! </h1> Step 1 : <b> Select row (below) as a letter in your name accordingly. </b>
+      <br>
+      <i>Eg: R is first letter of name (Ramesh), select third row and so on</i>
+    </div>
+  </div>
+  <div class="main animated" id="main"></div>
+  <div class="row info">
+    <div class="col-xs-6">
+      <i title="Total letters in your name">
+        Total Letters: <span id="total-letter">0</span>
+      </i>
+    </div>
+    <div class="col-xs-6">
+      <button title="Click here if you have finished" type="button" class="btn btn-success btn-lg unclickable" id="finish">Finish !</button>
+    </div>
+  </div>
+  <div class="show-container">
+    <a type="button" class="btn btn-danger btn-lg" href="" id="close">Close</a>
+    <div class="show-name">
+      <button type="button" class="btn btn-success get-name animated wobble" id="get-name"> Get  Name !</button>
+      <div class="name animated zoomIn" id="name"></div>
+    </div>
+  </div>
+</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
